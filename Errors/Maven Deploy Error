@@ -1,0 +1,48 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.java_backend:jsp_basics >---------------------
+[INFO] Building jsp_basics Maven Webapp mark1
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ jsp_basics ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/arvind-pt4885/CRM - DX Training/Java backend/Java-Backend/jsp_basics/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ jsp_basics ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ jsp_basics ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/arvind-pt4885/CRM - DX Training/Java backend/Java-Backend/jsp_basics/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ jsp_basics ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ jsp_basics ---
+[INFO] 
+[INFO] --- maven-war-plugin:3.2.2:war (default-war) @ jsp_basics ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [jsp_basics] in [/home/arvind-pt4885/CRM - DX Training/Java backend/Java-Backend/jsp_basics/target/jsp_basics]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/arvind-pt4885/CRM - DX Training/Java backend/Java-Backend/jsp_basics/src/main/webapp]
+[INFO] Webapp assembled in [26 msecs]
+[INFO] Building war: /home/arvind-pt4885/CRM - DX Training/Java backend/Java-Backend/jsp_basics/target/jsp_basics.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ jsp_basics ---
+[INFO] Installing /home/arvind-pt4885/CRM - DX Training/Java backend/Java-Backend/jsp_basics/target/jsp_basics.war to /home/arvind-pt4885/.m2/repository/com/java_backend/jsp_basics/mark1/jsp_basics-mark1.war
+[INFO] Installing /home/arvind-pt4885/CRM - DX Training/Java backend/Java-Backend/jsp_basics/pom.xml to /home/arvind-pt4885/.m2/repository/com/java_backend/jsp_basics/mark1/jsp_basics-mark1.pom
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.8.2:deploy (default-deploy) @ jsp_basics ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.247 s
+[INFO] Finished at: 2022-02-03T19:55:37+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy (default-deploy) on project jsp_basics: Deployment failed: repository element was not specified in the POM inside distributionManagement element or in -DaltDeploymentRepository=id::layout::url parameter -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
